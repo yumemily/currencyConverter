@@ -9,7 +9,7 @@ function formatCurrency(type, value) {
     return formatter.format(value);
   }
 
-  console.log(formatCurrency('KRW',10000));
+
 
 
 
