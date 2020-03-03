@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+
 </head>
+
 <body>
-    <script type="text/javascript" src="main.js">
-    </script>
+    <section class="mt-4 d-flex flex-column align-items-center justify-content-center" style="height:500px;">
+        <h3 class="align-self-center" id="prompt">The World's Trusted Currency Authority</h3>
+        <div class="d-flex flex-row align-items-center input-form">
+            <p class="text-secondary font-weight-bold p-2">From:</p>
+            <input autofocus type="number" id="amount" />
+            <p class="text-secondary font-weight-bold p-2">From:</p>
+            <select id="from" class="btn-secondary btn-lg btn-lg">
+                <option value="USD">USD</option>
+                <option value="VND">VND</option>
+                <option value="EUR">EUR</option>
+                <option value="JPY">JPY</option>
+            </select>
+            <p class="text-secondary font-weight-bold p-2">To:</p>
+            <select id="to" class="btn-secondary btn-lg btn-lg">
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="JPY">JPY</option>
+            </select>
+            <button id="convertButton" class="btn btn-info btn-lg btn-block m-5" onclick="convertAgain()"><i
+                    class="fa fa-chevron-right fa-3x"></i></button>
+
+        </div>
+        <div>
+            <h5 id="startAmount" class="text-center"></h5>
+            <div id="result" class="text-success text-center"></span>
+        </div>
+
+    </section>
+
+
+    
+        <script type="text/javascript" src="main.js">
+        </script>
 </body>
+
 </html>
