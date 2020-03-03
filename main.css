@@ -1,0 +1,20 @@
+.container{
+    background-color:transparent;
+    height: 95vh;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-form {
+    width: 100%;
+    padding: 5%;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid black;
+  }
+
+body{
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HBVAem8Tgj19096pj/videoblocks-blue-and-green-stars-on-dark-gradient-background_b-6yb4ppl_thumbnail-full01.png);
+}
